@@ -1,6 +1,7 @@
 <?php 
 require_once '../components/navbar.php'
 ?>
+
 <body class ="bg-gray-900">
 
 <div class="flex justify-center items-center h-screen ">
