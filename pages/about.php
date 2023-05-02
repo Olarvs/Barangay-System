@@ -4,7 +4,8 @@ Install the "flowbite-typography" NPM package to apply styles and format the art
 URL: https://flowbite.com/docs/components/typography/ 
 -->
 <?php 
-require_once '../components/navbar.php'
+include '../components/head.php';
+include '../components/navbar.php';
 ?>
 
 <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
@@ -30,19 +31,29 @@ require_once '../components/navbar.php'
               <figcaption>Digital art by Anonymous</figcaption>
           </figure>
 
-          <h1>Getting started with our Website</h1>
+          <strong>Getting started with our Website</strong>
           <p>Our mission is to foster a vibrant and inclusive community by promoting communication, collaboration, and engagement among residents. Through this web system, we aim to provide a platform where residents can connect with each other, stay updated on community news and events, and access important resources and services.</p>
-          <ul>
+          
+          <br>
+          <b>Here are some of the features and services that you can expect from our web system:</b>
+          <br>
+          <ol>
             <li>
-                Community News and Announcements: Stay up-to-date on the latest news and announcements from the Palazzo Bello community.
+                <strong>Community News and Announcements:</strong> Stay up-to-date on the latest news and announcements from the Palazzo Bello community.
             </li>
             <li>
-                Events Calendar: Find out about upcoming events in the community, including social gatherings, meetings, and other activities.
+                <strong>Events Calendar:</strong> Find out about upcoming events in the community, including social gatherings, meetings, and other activities.
             </li>
             <li>
-                Community News and Announcements: Stay up-to-date on the latest news and announcements from the Palazzo Bello community.
+                <strong>Community Resources:</strong> Access important resources and services such as contact information for local government officials, emergency services, and service providers.
             </li>
             <li>
-                Community News and Announcements: Stay up-to-date on the latest news and announcements from the Palazzo Bello community.
+                <strong>Community Forums:</strong> Engage in discussions with your fellow residents on various topics related to the community.
             </li>
-          </ul>
+          </ol>
+          <br>
+          <strong>
+          We encourage you to register for an account on our web system to take full advantage of the features and services that we offer. If you have any questions, concerns, or feedback, please don't hesitate to contact us. We look forward to serving you and building a stronger community together!
+          </strong>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+         
