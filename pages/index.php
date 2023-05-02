@@ -26,6 +26,6 @@ require_once '../components/navbar.php'
 </div>
  
 <?php 
-require_once '../components/user-list.php';
+require_once '../components/footer.php';
 ?>
 </body>
